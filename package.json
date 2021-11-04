@@ -1,0 +1,35 @@
+{
+  "name": "http-service-builder",
+  "version": "1.0.0",
+  "description": "Dev tool to help build and test http services",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obe711/http-service-builder.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "http",
+    "service",
+    "axios",
+    "express"
+  ],
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Obediah Klopfenstein",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "qs": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
